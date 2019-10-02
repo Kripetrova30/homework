@@ -1,0 +1,10 @@
+a = []
+s = int(input())
+for i in range(10):
+    a.append(i)
+    
+for i in range(10):
+    if (s == a[i]):
+        print(i)
+
+print(a)
