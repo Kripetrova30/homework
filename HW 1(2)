@@ -1,0 +1,17 @@
+import random
+s = []
+p = []
+o = []
+for i in range(10):
+    s.append(random.randint(-100,100))
+print(s)
+
+for i in range(10):
+    if (s[i]>0):
+        p.append(s[i])
+    else:
+        o.append(s[i])
+
+print(p)
+print(o)
+    
