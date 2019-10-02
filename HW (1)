@@ -1,0 +1,24 @@
+class R:
+    a = 1
+    b = 3
+        
+    def pr(self):
+        print('a =',self.a)
+        print('b =',self.b)
+
+
+    def summa(self):
+        print('summa=',self.a+self.b)
+
+    def max(self):
+        if (self.a > self.b):
+            print('max=',self.a)
+        else:
+            print(self.b)
+
+ab = R()
+ab.a = 35
+ab.b = 7
+ab.pr()
+ab.summa()
+ab.max()
